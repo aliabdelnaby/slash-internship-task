@@ -10,7 +10,7 @@ abstract class AppStrings {
       myCart = "My Cart",
       favorites = "Favorites",
       categories = "Categories",
-      seeAll = "See All",
+      seeAll = "See all",
       fashion = "Fashion",
       games = "Games",
       accessories = "Accessories",
