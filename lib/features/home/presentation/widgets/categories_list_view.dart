@@ -9,6 +9,7 @@ class CategoriesListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.separated(
+      clipBehavior: Clip.none,
       itemCount: items.length,
       separatorBuilder: (context, index) =>
           SizedBox(width: MediaQuery.of(context).size.width * 0.02),
@@ -21,7 +22,7 @@ class CategoriesListView extends StatelessWidget {
             children: [
               CircleAvatar(
                 backgroundColor: AppColors.primaryColor,
-                radius: MediaQuery.of(context).size.height * 0.047,
+                radius: 40,
                 child: Image.asset(
                   item.imageUrl,
                 ),

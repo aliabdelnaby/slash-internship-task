@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:slash_task/core/utils/app_assets.dart';
-import 'package:slash_task/core/utils/app_colors.dart';
 import 'package:slash_task/core/utils/app_strings.dart';
-import 'package:slash_task/core/utils/app_styles.dart';
+import 'package:slash_task/features/home/data/datasources/best_selling_list_data.dart';
 import 'package:slash_task/features/home/data/datasources/category_items_list.dart';
+import 'package:slash_task/features/home/presentation/widgets/best_selling_list_view.dart';
 import 'package:slash_task/features/home/presentation/widgets/categories_list_view.dart';
 import 'package:slash_task/features/home/presentation/widgets/custom_appbar.dart';
 import 'package:slash_task/features/home/presentation/widgets/custom_search_widget.dart';
@@ -44,78 +43,15 @@ class HomeScreenMobileLayout extends StatelessWidget {
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.02),
               SizedBox(
-                height: MediaQuery.of(context).size.height * 0.25,
-                child: const BestSellingListView(
-                    // items: categoryList,
-                    ),
+                height: MediaQuery.of(context).size.height * 0.23,
+                child: BestSellingListView(
+                  items: bestSellingList,
+                ),
               ),
             ],
           ),
         ),
       ),
-    );
-  }
-}
-
-class BestSellingListView extends StatelessWidget {
-  const BestSellingListView({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return ListView.separated(
-      scrollDirection: Axis.horizontal,
-      itemCount: 3,
-      separatorBuilder: (context, index) =>
-          SizedBox(width: MediaQuery.of(context).size.width * 0.02),
-      itemBuilder: (context, index) {
-        return Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              height: MediaQuery.of(context).size.height * 0.15,
-              width: MediaQuery.of(context).size.width * 0.35,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(8),
-                image: const DecorationImage(
-                  image: AssetImage(Assets.imagesStitchKeychain),
-                  fit: BoxFit.fill,
-                ),
-              ),
-            ),
-            SizedBox(height: MediaQuery.of(context).size.height * 0.01),
-            const Text(
-              'Stitch Keychain',
-              style: AppTextStyle.style16W400,
-            ),
-            SizedBox(height: MediaQuery.of(context).size.height * 0.004),
-            Row(
-              children: [
-                const Text(
-                  "EGP 55",
-                  style: AppTextStyle.style16W700,
-                ),
-                SizedBox(width: MediaQuery.of(context).size.width * 0.05),
-                Image.asset(
-                  Assets.imagesBrand1,
-                ),
-                SizedBox(width: MediaQuery.of(context).size.width * 0.02),
-                InkWell(
-                  onTap: () {},
-                  child: const CircleAvatar(
-                    radius: 14,
-                    backgroundColor: AppColors.primaryColor,
-                    child: Icon(
-                      Icons.add,
-                      color: Colors.white,
-                      size: 18,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ],
-        );
-      },
     );
   }
 }

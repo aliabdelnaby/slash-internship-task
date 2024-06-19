@@ -29,8 +29,9 @@ class _SlideBannersState extends State<SlideBanners> {
           items: imgList.map((item) => Image.asset(item)).toList(),
           carouselController: _controller,
           options: CarouselOptions(
+            clipBehavior: Clip.none,
             // autoPlay: true,
-            viewportFraction: 0.87,
+            viewportFraction: 0.9,
             padEnds: false,
             enlargeCenterPage: true,
             aspectRatio: 2.8,
