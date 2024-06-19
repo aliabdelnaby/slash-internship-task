@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:slash_task/core/utils/app_strings.dart';
 import 'package:slash_task/features/home/presentation/widgets/custom_appbar.dart';
 import 'package:slash_task/features/home/presentation/widgets/custom_search_widget.dart';
+import 'package:slash_task/features/home/presentation/widgets/custom_section_title_widget.dart';
 import 'package:slash_task/features/home/presentation/widgets/slide_banner.dart';
 
 class HomeScreenMobileLayout extends StatelessWidget {
@@ -20,7 +22,11 @@ class HomeScreenMobileLayout extends StatelessWidget {
               const CustomSearchWidget(),
               SizedBox(height: MediaQuery.of(context).size.height * 0.03),
               const SlideBanners(),
-              
+              SizedBox(height: MediaQuery.of(context).size.height * 0.03),
+              const CustomSectionTitleWidget(
+                title: AppStrings.categories,
+              ),
+              const SizedBox(height: 16),
             ],
           ),
         ),

@@ -41,7 +41,7 @@ class _SlideBannersState extends State<SlideBanners> {
             },
           ),
         ),
-        SizedBox(height: MediaQuery.of(context).size.height * 0.01),
+        SizedBox(height: MediaQuery.of(context).size.height * 0.02),
         AnimatedSmoothIndicator(
           activeIndex: _current,
           count: imgList.length,
