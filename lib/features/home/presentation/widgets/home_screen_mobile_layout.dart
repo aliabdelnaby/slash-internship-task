@@ -18,8 +18,9 @@ class HomeScreenMobileLayout extends StatelessWidget {
               const CustomAppBar(),
               SizedBox(height: MediaQuery.of(context).size.height * 0.03),
               const CustomSearchWidget(),
-              SizedBox(height: MediaQuery.of(context).size.height * 0.02),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.03),
               const SlideBanners(),
+              
             ],
           ),
         ),
@@ -27,4 +28,3 @@ class HomeScreenMobileLayout extends StatelessWidget {
     );
   }
 }
-
