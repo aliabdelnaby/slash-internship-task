@@ -33,13 +33,19 @@ class CustomAppBar extends StatelessWidget {
               ],
             ),
             SizedBox(width: MediaQuery.of(context).size.width * 0.03),
-            Image.asset(
-              Assets.imagesArrowdown,
-              height: MediaQuery.of(context).size.height * 0.01,
+            InkWell(
+              onTap: () {},
+              child: Image.asset(
+                Assets.imagesArrowdown,
+                height: MediaQuery.of(context).size.height * 0.01,
+              ),
             ),
           ],
         ),
-        Image.asset(Assets.imagesNotifcationIcon)
+        InkWell(
+          onTap: () {},
+          child: Image.asset(Assets.imagesNotifcationIcon),
+        ),
       ],
     );
   }

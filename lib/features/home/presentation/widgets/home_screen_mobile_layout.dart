@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:slash_task/features/home/presentation/widgets/custom_appbar.dart';
+import 'package:slash_task/features/home/presentation/widgets/custom_search_widget.dart';
 
 class HomeScreenMobileLayout extends StatelessWidget {
   const HomeScreenMobileLayout({super.key});
@@ -14,7 +15,9 @@ class HomeScreenMobileLayout extends StatelessWidget {
             children: [
               SizedBox(height: MediaQuery.of(context).size.height * 0.02),
               const CustomAppBar(),
-              const SizedBox(height: 24),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.03),
+              const CustomSearchWidget(),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.03),
             ],
           ),
         ),
