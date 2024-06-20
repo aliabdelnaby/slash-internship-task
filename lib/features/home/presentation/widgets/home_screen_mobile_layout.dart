@@ -52,7 +52,7 @@ class HomeScreenMobileLayout extends StatelessWidget {
                   items: bestSellingList,
                 ),
               ),
-              SizedBox(height: MediaQuery.of(context).size.height * 0.03),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.02),
               const CustomSectionTitleWidget(
                 title: AppStrings.newarrival,
               ),
