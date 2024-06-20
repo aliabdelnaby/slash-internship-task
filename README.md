@@ -4,7 +4,7 @@
 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/aliabdelnaby/flutter-clean-architecture](https://github.com/aliabdelnaby/slash-internship-task)
+git clone https://github.com/aliabdelnaby/slash-internship-task
 cd slash-internship-task
 ```
     
