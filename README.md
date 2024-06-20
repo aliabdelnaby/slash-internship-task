@@ -1,16 +1,22 @@
-# slash_task
+# Slash Internship Task
 
-A new Flutter project.
+## Installation
+1. Clone the repository:
 
-## Getting Started
+```bash
+git clone [https://github.com/aliabdelnaby/flutter-clean-architecture](https://github.com/aliabdelnaby/slash-internship-task)
+cd slash-internship-task
+```
+    
+2. Install dependencies:
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+```
 
-A few resources to get you started if this is your first Flutter project:
+3. Run the application:
+```bash
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Home Page](https://github.com/aliabdelnaby/slash-internship-task/assets/70640625/9be9c55d-d3c1-487e-90e3-ec855a2e6f77)
