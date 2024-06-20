@@ -1,5 +1,5 @@
-import 'package:slash_task/core/utils/app_assets.dart';
-import 'package:slash_task/features/home/data/models/recommended_model.dart';
+import '../../../../core/utils/app_assets.dart';
+import '../models/recommended_model.dart';
 
 List<RecommendedModel> recommendedList = [
   RecommendedModel(

@@ -1,6 +1,6 @@
-import 'package:slash_task/core/utils/app_assets.dart';
-import 'package:slash_task/core/utils/app_strings.dart';
-import 'package:slash_task/features/home/data/models/category_model.dart';
+import '../../../../core/utils/app_assets.dart';
+import '../../../../core/utils/app_strings.dart';
+import '../models/category_model.dart';
 
 List<CategoryModel> categoryList = [
   CategoryModel(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:slash_task/core/utils/app_strings.dart';
-import 'package:slash_task/core/utils/app_styles.dart';
+import '../../../../core/utils/app_strings.dart';
+import '../../../../core/utils/app_styles.dart';
 
 class CustomSectionTitleWidget extends StatelessWidget {
   const CustomSectionTitleWidget({super.key, required this.title});

@@ -73,6 +73,22 @@ class Assets {
   /// assets/images/location.png
   static const String imagesLocation = "assets/images/location.png";
 
+  /// Assets for imagesNavFavorites
+  /// assets/images/navFavorites.png
+  static const String imagesNavFavorites = "assets/images/navFavorites.png";
+
+  /// Assets for imagesNavHome
+  /// assets/images/navHome.png
+  static const String imagesNavHome = "assets/images/navHome.png";
+
+  /// Assets for imagesNavMyCart
+  /// assets/images/navMyCart.png
+  static const String imagesNavMyCart = "assets/images/navMyCart.png";
+
+  /// Assets for imagesNavProfile
+  /// assets/images/navProfile.png
+  static const String imagesNavProfile = "assets/images/navProfile.png";
+
   /// Assets for imagesNotebook
   /// assets/images/Notebook.png
   static const String imagesNotebook = "assets/images/Notebook.png";

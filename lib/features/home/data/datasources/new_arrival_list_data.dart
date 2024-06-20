@@ -1,5 +1,5 @@
-import 'package:slash_task/core/utils/app_assets.dart';
-import 'package:slash_task/features/home/data/models/new_arrivals_model.dart';
+import '../../../../core/utils/app_assets.dart';
+import '../models/new_arrivals_model.dart';
 
 List<NewArrivalsModel> newArrivalList = [
   NewArrivalsModel(

@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:slash_task/core/utils/app_strings.dart';
-import 'package:slash_task/features/home/data/datasources/best_selling_list_data.dart';
-import 'package:slash_task/features/home/data/datasources/category_items_list.dart';
-import 'package:slash_task/features/home/data/datasources/new_arrival_list_data.dart';
-import 'package:slash_task/features/home/data/datasources/recommended_list_data.dart';
-import 'package:slash_task/features/home/presentation/widgets/best_selling_list_view.dart';
-import 'package:slash_task/features/home/presentation/widgets/categories_list_view.dart';
-import 'package:slash_task/features/home/presentation/widgets/custom_appbar.dart';
-import 'package:slash_task/features/home/presentation/widgets/custom_search_widget.dart';
-import 'package:slash_task/features/home/presentation/widgets/custom_section_title_widget.dart';
-import 'package:slash_task/features/home/presentation/widgets/new_arrival_list_view.dart';
-import 'package:slash_task/features/home/presentation/widgets/recommended_for_you_list_view.dart';
-import 'package:slash_task/features/home/presentation/widgets/slide_banner.dart';
+import '../../../../core/utils/app_strings.dart';
+import '../../data/datasources/best_selling_list_data.dart';
+import '../../data/datasources/category_items_list.dart';
+import '../../data/datasources/new_arrival_list_data.dart';
+import '../../data/datasources/recommended_list_data.dart';
+import 'best_selling_list_view.dart';
+import 'categories_list_view.dart';
+import 'custom_appbar.dart';
+import 'custom_search_widget.dart';
+import 'custom_section_title_widget.dart';
+import 'new_arrival_list_view.dart';
+import 'recommended_for_you_list_view.dart';
+import 'slide_banner.dart';
 
 class HomeScreenMobileLayout extends StatelessWidget {
   const HomeScreenMobileLayout({super.key});

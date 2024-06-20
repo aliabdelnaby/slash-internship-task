@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:slash_task/core/utils/app_colors.dart';
-import 'package:slash_task/core/utils/app_styles.dart';
-import 'package:slash_task/features/home/data/models/recommended_model.dart';
-import 'package:slash_task/features/home/presentation/cubit/home_cubit.dart';
-import 'package:slash_task/features/home/presentation/cubit/home_state.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../../../core/utils/app_styles.dart';
+import '../../data/models/recommended_model.dart';
+import '../cubit/home_cubit.dart';
+import '../cubit/home_state.dart';
 
 class RecommendedForYouListView extends StatelessWidget {
   const RecommendedForYouListView({super.key, required this.items});

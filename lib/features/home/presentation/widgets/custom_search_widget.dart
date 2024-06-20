@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:slash_task/core/utils/app_assets.dart';
-import 'package:slash_task/core/utils/app_colors.dart';
-import 'package:slash_task/core/utils/app_strings.dart';
-import 'package:slash_task/core/utils/app_styles.dart';
+import '../../../../core/utils/app_assets.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../../../core/utils/app_strings.dart';
+import '../../../../core/utils/app_styles.dart';
 
 class CustomSearchWidget extends StatelessWidget {
   const CustomSearchWidget({

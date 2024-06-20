@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:slash_task/core/routes/app_router.dart';
-import 'package:slash_task/core/utils/app_colors.dart';
+import 'core/routes/app_router.dart';
+import 'core/utils/app_colors.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
